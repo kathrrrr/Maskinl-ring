@@ -168,6 +168,7 @@ print(f"KNN-modelens nøjagtighed: {accuracy_score(y_test, y_pred_knn):.2f}")
 **Diskussion**:
 - Hvordan fungerer KNN?
 - Hvordan kan vi vælge `n_neighbors`?
+- Lav en konfusionsmatrix for knn-modellen.
 
 ---
 
