@@ -100,7 +100,7 @@ y_pred = model.predict(X_test)
 print("Forudsigelser:", y_pred)
 ```
 
-**Diskussion**:
+**Opgave**:
 - Hvad betyder "træning" af en model?
   
 
@@ -122,7 +122,7 @@ print("Klassifikationsrapport:")
 print(classification_report(y_test, y_pred, target_names=iris.target_names))
 ```
 
-**Diskussion**:
+**Opgave**:
 - Hvad fortæller nøjagtighed?
 - Hvad kan vi lære fra en klassifikationsrapport?
 
@@ -143,14 +143,14 @@ plt.title("Confusion Matrix")
 plt.show()
 ```
 
-**Diskussion**:
+**Opgave**:
 - Hvad viser en confusion matrix?
 - Hvor ser modellen ud til at fejle?
 
 ---
 
 ### **Trin 7: Prøv en anden model**
-**Formål**: Eksperimentér med en ny algoritme, f.eks. K-Nearest Neighbors (KNN).
+**Formål**: Eksperimentér med en ny algoritme, K-Nearest Neighbors (KNN).
 
 Kode:
 ```python
@@ -165,7 +165,7 @@ y_pred_knn = knn_model.predict(X_test)
 print(f"KNN-modelens nøjagtighed: {accuracy_score(y_test, y_pred_knn):.2f}")
 ```
 
-**Diskussion**:
+**Opgave**:
 - Hvordan fungerer KNN?
 - Hvordan kan vi vælge `n_neighbors`?
 - Lav en konfusionsmatrix for knn-modellen.
@@ -176,5 +176,5 @@ print(f"KNN-modelens nøjagtighed: {accuracy_score(y_test, y_pred_knn):.2f}")
 1. Introduktion til Iris-datasættet.
 2. Visualisering af data.
 3. Træning og evaluering af supervised modeller.
-4. Eksperimenter med forskellige algoritmer.
+4. Eksperimenter med en anden model.
 
