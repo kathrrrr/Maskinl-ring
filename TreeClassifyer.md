@@ -1,6 +1,6 @@
 
 
-Her er et simpelt eksempel på **supervised learning** og **klassifikation** ved hjælp af en **Decision Tree Classifier** (klassifikationstræ). Datasættet, vi bruger, er det stadig **Iris-datasæt**.
+Her er et simpelt eksempel på **supervised learning** og **klassifikation** ved hjælp af en **Decision Tree Classifier** (klassifikationstræ). Datasættet, vi bruger, er stadig **Iris-datasæt**.
 
 ---
 
