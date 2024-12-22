@@ -13,7 +13,7 @@ Modellen starter med at lave en lineær kombination af de indgående data. Det b
 $$z_k = w_{k1} \cdot x_1 + w_{k2} \cdot x_2 + \ldots + w_{kn} \cdot x_n + b$$
 
 
-Her er $$x_1, x_2, \ldots, x_n$$ vores inputegenskaber (fx længde og bredde af kronblad osv), $$w_{k1}, w_{k2}, \ldots, w_{}kn vægte, som modellen lærer, $$k$$ den $$k$$'te klasse
+Her er $$x_1, x_2, \ldots, x_n$$ vores inputegenskaber (fx længde og bredde af kronblad osv), $$w_{k1}, w_{k2}, \ldots, w_{kn}$$ vægte, som modellen lærer, $$k$$ den $$k$$'te klasse
 $$b$$ en forskydning, der hjælper med at justere modellen.
 
 For hver klasse i Iris-datasættet beregner modellen et z-værdi (også kaldet logits).
